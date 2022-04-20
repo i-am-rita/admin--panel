@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Table from '@mui/material/Table';
+import './Table.css';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
@@ -24,7 +25,7 @@ const makeStyles = (status) => {
             background: 'rgb(145 254 159 / 47%)',
             color: 'green',
         }
-    }else if(status === 'pending'){
+    }else if(status === 'Pending'){
         return{
             background: '#ffadad8f',
             color: 'red',
@@ -68,7 +69,7 @@ export default function BasicTable() {
               <TableCell align="left">
                   <span className='status' style={makeStyles(row.status)}>{row.status}</span>
               </TableCell>
-              <TableCell align="left">Details</TableCell>
+              <TableCell className="details" align="left" >Details</TableCell>
             </TableRow>
           ))}
         </TableBody>

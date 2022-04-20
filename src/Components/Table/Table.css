@@ -1,0 +1,27 @@
+.MuiTableRow-root>*{
+    padding: 10px;
+}
+
+.MuiTableRow-root, .MuiTableRow-head >*{
+    font-weight: bold !important;
+}
+
+/* .Table td, th{
+    border: none !important;
+} */
+
+.table:first-child{
+    border-radius: 0.7rem !important;
+}
+
+.status{
+    padding: 5px; 
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+    .table{
+        width: 150%;
+        margin-top: 3rem;
+    }
+}

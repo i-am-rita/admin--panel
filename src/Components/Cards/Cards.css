@@ -1,7 +1,18 @@
-.Cards{
+.cards{
     display: flex;
     gap: 10px;
 }
 .cardContainer{
     width: 100%; 
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .cards{
+        flex-direction: column;
+        margin-top: -5rem;
+    }
+    .cardContainer{
+        height: 5rem;
+    }
 }

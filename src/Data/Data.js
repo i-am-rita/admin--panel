@@ -8,6 +8,10 @@ import {
   UilMoneyWithdrawal,
 } from "@iconscout/react-unicons";
 
+import img1 from "../imgs/img1.png";
+import img2 from "../imgs/img2.png";
+import img3 from "../imgs/img3.png";
+
 export const SidebarData = [
   {
     icon: UilEstate,
@@ -79,5 +83,26 @@ export const CardData = [
         data: [10, 25, 15, 30, 12, 15, 20],
       },
     ],
+  },
+];
+
+export const UpdatesData = [
+  {
+    img: img1,
+    name: "Rita Uzoma",
+    notifi: "ordered plantain and chicken ordered plantain.",
+    time: "25 seconds ago",
+  },
+  {
+    img: img2,
+    name: "Rita Uzoma",
+    notifi: "ordered plantain and chicken ordered plantain.",
+    time: "15 seconds ago",
+  },
+  {
+    img: img3,
+    name: "Rita Uzoma",
+    notifi: "ordered plantain and chicken ordered plantain.",
+    time: "35 seconds ago",
   },
 ];

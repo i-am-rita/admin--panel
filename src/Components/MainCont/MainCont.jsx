@@ -5,7 +5,7 @@ import Table from '../Table/Table'
 
 const MainCont = () => {
   return (
-    <div className='MainCont'>
+    <div className='main-container'>
     <h1>Dashboard</h1>
     <Cards/>
     <Table/>

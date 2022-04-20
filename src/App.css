@@ -12,8 +12,8 @@
 }
 
 .App {
-  /* background: linear-gradient(106.37deg, #ffd1ec 29.63%, #fcfcd2 51.55%); */
-  background: #000;
+  background: linear-gradient(106.37deg, #aa6e91 29.63%, #81816b 51.55%);
+  /* background: #000; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -28,5 +28,20 @@
   width: 97%;
   border-radius: 2rem;
   background: var(--glass);
+  gap: 16px;
   /* overflow: hidden; */
+}
+
+@media screen and(max-width: 1200px){
+  .app-glass{
+    grid-template-columns: 40% 50% auto;
+    overflow-y: scroll; 
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+.app-glass{
+  grid-template-columns: 1fr;
+}
 }
